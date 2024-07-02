@@ -13,12 +13,12 @@
         <label for="area-value">エリアを選択</label>
         <select name="area" id="area-value">
             <optgroup>関東エリア</optgroup>
-            <option value="jre">JR東日本</option>
-            <option value="tobu">東武鉄道</option>
+            <option value="./db/jr-east.json">JR東日本</option>
+            <option value="./db/tobu.json">東武鉄道</option>
         </select>
         <br>
         <label for="sta-name">駅名を入力</label>
-        <input type="text" name="sta_name" id="sta-name">
+        <input type="text" name="sta_key" id="sta-name">
         <br>
         <input type="submit" value="検索">
     </form>
