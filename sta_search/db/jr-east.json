@@ -1,0 +1,16 @@
+{
+    "$schema": "../../define/eki-search.json",
+    "area": "JR東日本",
+    "version": "1.0.0",
+    "stations": [
+        {
+            "name": "大宮(埼玉)",
+            "lines": [
+                {
+                    "name": "東武野田線",
+                    "num": ["東武線1番線","東武線2番線"]
+                }
+            ]
+        }
+    ]
+}
