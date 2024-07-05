@@ -1,0 +1,35 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.css": "css",
+        "*.js": "javascript",
+        "*.json": "json",
+        "*.php": "php"
+    },
+    "emmet.includeLanguages": {
+        "html": "html",
+        "css": "css",
+        "javascript": "javascript",
+        "json": "json",
+        "php": "html"
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "html.format.wrapLineLength": 120,
+    "html.format.indentInnerHtml": true,
+    "html.format.preserveNewLines": true,
+    "html.format.maxPreserveNewLines": 2,
+    "html.format.unformatted": "wbr",
+    "css.format.newlineBetweenSelectors": true,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.validate.enable": false,
+    "php.validate.executablePath": "/usr/bin/php",
+    "json.format.enable": true,
+    "editor.language": "ja",
+    "files.encoding": "utf8",
+    "workbench.settings.language": "ja",
+    "workbench.editor.languageDetection": true,
+    "php.suggest.basic": false,
+    "intelephense.files.associations": ["*.php", "*.html"]
+}
