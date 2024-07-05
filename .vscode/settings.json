@@ -24,7 +24,6 @@
     "css.format.spaceAroundSelectorSeparator": true,
     "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
     "javascript.validate.enable": false,
-    "php.validate.executablePath": "/usr/bin/php",
     "json.format.enable": true,
     "editor.language": "ja",
     "files.encoding": "utf8",
