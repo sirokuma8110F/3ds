@@ -40,6 +40,15 @@
 <body>
     <div class="card">
         <h3>3DS WEB hack</h3>
+        <h3>確認</h3>
+        <p>この操作をすると改造処理が開始されます。</p>
+        <p>改造によって生じた損失は一切責任をこちらでは</p>
+        <p>負いません。</p>
+        <p>すべて自己責任となります。</p>
+        <hr>
+        <p style="color:#ff0000;"><strong>最後の警告です！</strong><br>改造プログラムを実行しますか？</p>
+        <br>
+        <button type="button" onclick="start()"></button>
         <iframe src="" frameborder="0" id="frame"></iframe>
     </div>
     <script>
@@ -49,22 +58,27 @@
         payloads[0]=gadget;
         payloads[1]=gadget;
     }
-    function spray4(iter) {	
+    function progress(iter) {	
         var x=0;
         for(var i=0; i < iter; i++){
                x = (i*2) % 366;
                   objects(0x8, 0x00e14e60);
                 }
             }
-            spray4(9000);	
+            progress(9000);	
             var s=1*0x100000;
             var obj2= new ArrayBuffer(s); 
             var payloads2=  new Uint32Array(obj2);
             for(var i=0; i<s/4; i++) payloads2[i]=i;
 
-            function go(){
-                var win=document.getElementById("frame");
-                win.src="execute.html";
+            function start(){
+                var alert = window.confirm('本当に最後の警告です！\n実行しますか？');
+                if(alert) {
+                    var win=document.getElementById("frame");
+                    win.src="execute.html";
+                } else {
+                    window.location.href = "alert0.html";
+                }
             }	
     </script>
 </body>
