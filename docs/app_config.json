@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "マイ鉄道ツール",
+    "short_name": "マイ鉄",
+    "description": "鉄道関連のジェネレータツールを公開しているアプリです。",
+    "id": "?system=pwa",
+    "scope": "/",
+    "start_url": "/",
+    "background_color": "green",
+    "theme_color": "green",
+    "display": "standalone",
+    "categories": ["tool", "train"],
+    "lang": "ja",
+    "orientation": "portrait",
+}
