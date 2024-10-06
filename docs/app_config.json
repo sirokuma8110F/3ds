@@ -4,12 +4,64 @@
     "short_name": "マイ鉄",
     "description": "鉄道関連のジェネレータツールを公開しているアプリです。",
     "id": "?system=pwa",
-    "scope": "/",
-    "start_url": "/",
+    "scope": "./",
+    "start_url": "./index.html",
     "background_color": "green",
     "theme_color": "green",
     "display": "standalone",
     "categories": ["tool", "train"],
     "lang": "ja",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./favicon/icon16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "./favicon/icon32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "./favicon/icon48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "./favicon/icon64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "./favicon/icon96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./favicon/icon128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./favicon/icon172.png",
+            "type": "image/png",
+            "sizes": "172x172"
+        },
+        {
+            "src": "./favicon/icon192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./favicon/icon256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "./favicon/icon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
 }
