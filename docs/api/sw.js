@@ -2,11 +2,12 @@
 var CACHE_NAME = "cache-v1"; 
 //キャッシュリスト
 var urlsToCache = [
-  "./",
-  "./favicon/",
-  "./index.html",
-  "./css/main.css",
-  "./js/main.js"
+  "/",
+  "/favicon/",
+  "/index.html",
+  "/data/styles/main.css",
+  "/data/scripts/main.js",
+  "/readme.txt"
 ];
 
 // install

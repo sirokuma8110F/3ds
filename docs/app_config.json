@@ -1,67 +1,95 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-    "name": "マイ鉄道ツール",
-    "short_name": "マイ鉄",
-    "description": "鉄道関連のジェネレータツールを公開しているアプリです。",
+    "name": "とぶはち倉庫[録音・画像等データ公開サイト]",
+    "short_name": "とぶはち倉庫",
+    "description": "とぶはちが録音した音声データや、撮影した動画・画像データを公開しているサイトです。",
     "id": "?system=pwa",
-    "scope": "./",
-    "start_url": "./index.html",
-    "background_color": "green",
-    "theme_color": "green",
+    "scope": "/",
+    "start_url": "/",
+    "background_color": "#8BCFFF",
+    "theme_color": "#3F80A2",
     "display": "standalone",
     "categories": ["tool", "train"],
     "lang": "ja",
     "orientation": "portrait",
     "icons": [
         {
-            "src": "./favicon/icon16.png",
+            "src": "/favicon/icon16.png",
             "type": "image/png",
             "sizes": "16x16"
         },
         {
-            "src": "./favicon/icon32.png",
+            "src": "/favicon/icon32.png",
             "type": "image/png",
             "sizes": "32x32"
         },
         {
-            "src": "./favicon/icon48.png",
+            "src": "/favicon/icon48.png",
             "type": "image/png",
             "sizes": "48x48"
         },
         {
-            "src": "./favicon/icon64.png",
+            "src": "/favicon/icon64.png",
             "type": "image/png",
             "sizes": "64x64"
         },
         {
-            "src": "./favicon/icon96.png",
+            "src": "/favicon/icon96.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "./favicon/icon128.png",
+            "src": "/favicon/icon128.png",
             "type": "image/png",
             "sizes": "128x128"
         },
         {
-            "src": "./favicon/icon172.png",
+            "src": "/favicon/icon172.png",
             "type": "image/png",
             "sizes": "172x172"
         },
         {
-            "src": "./favicon/icon192.png",
+            "src": "/favicon/icon192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "./favicon/icon256.png",
+            "src": "/favicon/icon256.png",
             "type": "image/png",
             "sizes": "256x256"
         },
         {
-            "src": "./favicon/icon512.png",
+            "src": "/favicon/icon512.png",
             "type": "image/png",
             "sizes": "512x512"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "利用規約(readme)",
+            "short_name": "利用規約",
+            "description": "利用規約ページです。画像・動画・録音データの取扱方法を掲載しています。",
+            "url": "/readme.html",
+            "icons": [
+                {
+                    "src": "/favicon/icon96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "お知らせ情報",
+            "short_name": "お知らせ",
+            "description": "当サイトの更新情報やお知らせ情報を掲載しています。",
+            "url": "/news.html",
+            "icons": [
+                {
+                    "src": "/favicon/icon96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
         }
     ]
 }
