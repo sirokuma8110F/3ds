@@ -7,7 +7,7 @@
     src: url('/data/fonts/KosugiMaru-Regular.ttf');
 }
 * {
-    font-family: 'kosugi', sans-serif;
+    font-family: 'kosugi';
     margin: 0;
 }
 header {
@@ -15,4 +15,5 @@ header {
     height: 64px;
     line-height: 64px;
     font-size: 32px;
+    background-color: cadetblue;
 }
