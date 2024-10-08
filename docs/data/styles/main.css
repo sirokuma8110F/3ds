@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'dot16';
+    src: url('/data/fonts/DotGothic16-Regular.ttf');
+}
+@font-face {
+    font-family: 'kosugi';
+    src: url('/data/fonts/KosugiMaru-Regular.ttf');
+}
+* {
+    font-family: 'kosugi', sans-serif;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    font-size: 32px;
+}
