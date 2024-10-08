@@ -1,13 +1,18 @@
-@font-face {
-    font-family: 'dot16';
-    src: url('/data/fonts/DotGothic16-Regular.ttf');
-}
-@font-face {
-    font-family: 'kosugi';
-    src: url('/data/fonts/KosugiMaru-Regular.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Kosugi+Maru&display=swap');
+
+.kosugi-maru-regular {
+    font-family: "Kosugi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .dotgothic16-regular {
+    font-family: "DotGothic16", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 * {
-    font-family: 'kosugi';
+    font-family: 'Kosugi Maru', sans-serif;
     margin: 0;
 }
 header {
